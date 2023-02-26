@@ -1,0 +1,279 @@
+body{
+    margin:0px;
+    padding:0px;
+    }
+    .main{
+    padding:0px;
+    width:100%;
+    background: #3A2767 ;
+    height:auto;
+    overflow:hidden;
+    }
+    .main1{
+        display:flex;
+    }
+    .main1 img{
+    margin-left:25px;
+    margin-top:10px;
+    padding:5px;
+    height:150px;
+    width:120px;
+    border-radius:30px;
+    border:1px solid black;
+    cursor:pointer;
+    }
+    .main1 h1{
+    margin-left:20px;
+    color:white;
+    font-size:65px;
+    font-style:italic;
+    text-align:certer;
+    text-shadow: 1px 2px  #8BE5E5;
+    }
+    
+    .main2 marquee{
+    font-size:28px;
+    color:yellow;
+    font-style:verdana;
+    behavior:alternate;
+    }
+    .main1 .icon{
+        display:flex;
+        margin-top:35px;
+        margin-left:100px;
+    }
+   .icon i{
+        color:aqua;
+        padding:10px;
+        margin:10px;
+        height:15px;
+        width:15 px;
+        border:1px solid #ff0;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .main1 i:hover{
+        border:1px solid aqua;
+        color:#ff0;
+    }
+
+
+
+    /*links*/
+    .links{
+        background-image: linear-gradient(45deg,rgb(223, 96, 126),rgb(85, 80, 217));
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin:1px;
+        height:50px;
+        width:100%;
+    }
+    .links h2{
+        color:rgb(13, 233, 86);
+        font-size:25px;
+    }
+    .links ul li{
+    list-style:none;
+    padding-left:200px;
+    display:inline-block;
+    }
+    .links ul li a{
+    align-items:right;
+    text-decoration:none;
+    display:flex;
+    padding-left:20px;
+    justify-content:space-between;
+    align-items:center;
+    color:azure;
+    }
+    .links ul li a:hover{
+        color:rgb(13, 246, 133);
+        text-decoration: underline;
+    }
+
+    /*mission*/
+    #mission11{
+        margin-top:10px;
+        display:flex;
+        justify-content:center;
+    }
+    #mission11 img{
+        height:250px;
+        width:400px;
+        padding:15px;
+        border:2px solid black;
+        box-shadow:5px 10px 5px rgb(95, 123, 175);
+    }
+    #mission11 ul li{
+        font-size:20px;
+        font-style:oblique;
+        padding-top:10px;
+        color:rgb(215, 14, 98);
+    }
+    
+    #mission22{
+        margin-top:10px;
+        display:flex;
+        justify-content:center;
+    }
+    span{
+        color:blue;
+        border-bottom:1px solid rgb(242, 0, 255);
+    }
+    #mission22 img{
+        height:250px;
+        width:400px;
+        padding:15px;
+        border:2px solid black;
+        box-shadow:5px 10px 5px rgb(95, 123, 175);
+    }
+    #mission22 ul li{
+        font-size:20px;
+        font-style:oblique;
+        padding-top:10px;
+        color:rgb(215, 14, 98);
+    }
+    
+    #mission33{
+        margin-top:10px;
+        display:flex;
+        justify-content:center;
+    }
+    #mission33 img{
+        padding:15px;
+        border:2px solid black;
+        box-shadow:5px 10px 5px rgb(95, 123, 175);
+    }
+    #mission33 ul li{
+        font-size:20px;
+        font-style:oblique;
+        padding-top:10px;
+        color:rgb(215, 14, 98);
+    }
+    
+    #mission44{
+        margin:10px;
+        display:flex;
+        justify-content:center;
+    }
+    #mission44 ul li{
+        font-size:20px;
+        font-style:oblique;
+        padding-top:10px;
+        color:rgb(215, 14, 98);
+    }
+    #mission44 img{
+        border:2px solid black;
+        box-shadow:5px 10px 5px rgb(95, 123, 175);
+        height:250px;
+        width:350px;
+        padding-left:15px;
+
+    }
+    .icon1,.icon2{
+        display:none;
+    }
+    @media (min-width:360px) and (max-width:1200px)
+    {
+        .main1 img{
+            height:100px;
+            width:90px;
+            margin-top:20px;
+            margin-left:10px;
+            }
+            
+        .main h1{
+            margin-top:20px;
+            font-size:25px;
+            text-shadow: 1px 1px  #8BE5E5;
+        }
+        .main2 marquee{
+            font-size:20px;
+        }
+        .main1 .icon{
+            display: block;
+            margin-top:20px;
+            margin-left: 5px;
+            float: right;
+        }
+        .links ul li{
+            display:flex;
+        }
+        .links{
+            position:absolute;
+            background: #3c0491;
+            height:auto;
+            width:200px;
+            top:0;
+            margin-top:160px;
+            right:-200px;
+            text-align: left;
+            align-items: left;
+            z-index: 1;
+            transition:1s;
+            
+        }
+      
+        .links ul li{
+            padding-left:0px;
+        }
+        h2{
+            display:none;
+        }
+        .links .icon1{
+            display:block;
+            color:black;
+            cursor:pointer;
+            font-size:30px;
+            
+        }
+        .icon1{
+            margin-top:-570px;
+            transform:translate(40px,80px);
+            cursor:pointer;
+        }
+        .links ul li{
+            padding:30px;
+        }
+        .links ul li a{
+            font-style: oblique;
+            font-size:5px;
+            
+        }
+        .links ul li a:hover{
+            color:rgb(10, 9, 10);
+        }
+        .icon2{
+            cursor:pointer;
+            width:100%;
+            display: block;
+            text-align: right;
+            font-size: 25px;
+            padding-right:40px;
+            background-image: linear-gradient(45deg,rgb(223, 96, 126),rgb(85, 80, 217));
+        } 
+        .about h1{
+            text-align: center;
+        }
+        .about img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        #mission1, #mission2,#mission3,#mission4{
+            box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+        }
+        #mission44 img,#mission22 img,#mission11 img{
+            margin-bottom:20px;
+            height:150px;
+            width:250px;
+        }
+        #mission11, #mission22, #mission33, #mission44{
+            display:grid;
+        }
+        #mission11 ul li,#mission22 ul li,#mission33 ul li,#mission44 ul li{
+            font-size:15px;
+        }
+    }    
