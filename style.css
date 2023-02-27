@@ -463,8 +463,8 @@ cursor:pointer;
             width:30%;
         }
         .testimonials{
-            display:grid;
-            text-align: center;    
+            display:inline-block;
+        margin:0 auto;  
         }
         .testimonials .card{
             width:230px;
@@ -554,7 +554,8 @@ cursor:pointer;
                 }
                 
       .success{
-        display:grid;
+       display:inline-block;
+        margin:0 auto;
       }
       .achievement{
         margin:15px;
