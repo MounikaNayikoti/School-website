@@ -297,7 +297,7 @@ body{
 
 /*media*/
 
-@media (min-width:360px) and (max-width:480px)
+@media (min-width:360px) and (max-width:700px)
 {
    
     #admissions .content .p{
