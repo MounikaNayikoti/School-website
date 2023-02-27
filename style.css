@@ -400,7 +400,7 @@ cursor:pointer;
 }
 /*media*/
 
-    @media (min-width:360px) and (max-width:750px)
+     @media (min-width:368px) and (max-width:480px)
     {   
         .icons{
             margin:20px;
