@@ -174,7 +174,7 @@ body{
     .icon1,.icon2{
         display:none;
     }
-    @media (min-width:360px) and (max-width:1200px)
+    @media (min-width:368px) and (max-width:480px)
     {
         .main1 img{
             height:100px;
