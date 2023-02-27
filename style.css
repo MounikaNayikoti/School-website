@@ -470,6 +470,10 @@ cursor:pointer;
             width:230px;
             height:350px;
         }
+        .card .content p{
+            font-size:15px;
+            border-bottom: 10px;
+            }
         .achievements h1{
             font-size:25px;
            }
