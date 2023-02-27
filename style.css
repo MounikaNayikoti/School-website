@@ -185,6 +185,7 @@ cursor:pointer;
     width:100%;
     display: grid;
     padding:5px;
+    align-items:center;
     }
     .achievement img{
     border-radius:5%;
@@ -569,9 +570,7 @@ cursor:pointer;
         margin:5px;
       }
       .achievement img{
-        display:block;
-        margin-right: auto;
-        margin-left: auto;
+         margin:0 auto;
         width:50%;
         height:auto;
         width:70%;
