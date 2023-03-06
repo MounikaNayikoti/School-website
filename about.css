@@ -212,6 +212,7 @@ body{
             text-align: left;
             align-items: left;
             z-index: 1;
+            overflow-X:hidden;
             transition:1s;
             
         }
